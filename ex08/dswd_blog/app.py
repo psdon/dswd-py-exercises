@@ -1,6 +1,7 @@
 from flask import Flask
 from . import auth, public, config
-import logging, sys
+from .extensions import db, migrate
+from . import models
 
 
 def create_app(testing=False):
@@ -11,13 +12,17 @@ def create_app(testing=False):
     else:
         app.config.from_object(config.DevConfig)
 
-    app.register_blueprint(auth.views.bp)
-    app.register_blueprint(public.views.bp)
+    register_blueprints(app)
+    register_extensions(app)
+
     return app
 
 
-def configure_logger(app):
-    """Configure loggers."""
-    handler = logging.StreamHandler(sys.stdout)
-    if not app.logger.handlers:
-        app.logger.addHandler(handler)
+def register_blueprints(app):
+    app.register_blueprint(auth.views.bp)
+    app.register_blueprint(public.views.bp)
+
+
+def register_extensions(app):
+    db.init_app(app)
+    migrate.init_app(app, db)

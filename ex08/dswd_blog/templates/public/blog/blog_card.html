@@ -3,7 +3,11 @@
     <h3>
         {{ data['title'] }}
     </h3>
-    <p>{{ data['author'] }} - {{ data['date'] }}</p>
+
+<!--    Try this:-->
+<!--    .strftime('%Y-%m-%d')-->
+
+    <p>{{ data['author'] }} - {{ data['created_at'] }}</p>
     <p>{{ data['content'] }}</p>
 </div>
 {% endfor %}
