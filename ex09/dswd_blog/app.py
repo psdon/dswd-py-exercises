@@ -1,6 +1,6 @@
 from flask import Flask
 from . import auth, public, config
-from .extensions import db, migrate
+from .extensions import db, migrate, login_manager, csrf_protect
 from . import models
 
 
@@ -26,3 +26,5 @@ def register_blueprints(app):
 def register_extensions(app):
     db.init_app(app)
     migrate.init_app(app, db)
+    csrf_protect.init_app(app)
+    login_manager.init_app(app)

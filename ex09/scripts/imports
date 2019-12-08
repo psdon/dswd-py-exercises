@@ -1,4 +1,0 @@
-from dswd_blog.extensions import db
-from dswd_blog.models import Blog
-from scripts.commit_blog_data import create_blog
-create_blog(db=db, Model=Blog)
