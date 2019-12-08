@@ -1,0 +1,9 @@
+{% for data in blogs %}
+<div class="blog_card">
+    <h3>
+        {{ data['title'] }}
+    </h3>
+    <p>{{ data['author'] }} - {{ data['date'] }}</p>
+    <p>{{ data['content'] }}</p>
+</div>
+{% endfor %}
