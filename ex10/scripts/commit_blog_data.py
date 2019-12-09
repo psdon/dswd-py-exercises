@@ -30,3 +30,10 @@ def create_blog(data=None, db=None, Model=None):
             db.session.rollback()
             print("Failure occured")
             print(err)
+
+
+
+# from dswd_blog.extensions import db
+# from dswd_blog.models import Blog
+# from scripts.commit_blog_data import create_blog
+# create_blog(db=db, Model=Blog)

@@ -2,41 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f7a58a7-2280-4f39-ac20-e25a10d51f95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex10/.flaskenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/auth/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/auth/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/extensions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/models/blog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/public/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/public/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/static/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/static/pic.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/templates/auth/sign_in/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/templates/auth/sign_in/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/templates/auth/sign_up/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/templates/auth/sign_up/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/templates/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/templates/public/blog/blog_card.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/templates/public/blog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/templates/public/home/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/dswd_blog/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/migrations/versions/38fc4a21393b_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/migrations/versions/b6ef98820480_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/scripts/create_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/tests/public/test_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex09/scripts/commit_blog_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex10/scripts/commit_blog_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/.flaskenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/auth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/auth/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/auth/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/models/blog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/models/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/public/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/public/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/static/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/static/pic.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/auth/sign_in/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/auth/sign_in/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/auth/sign_up/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/auth/sign_up/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/public/blog/blog_card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/public/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/public/home/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/scripts/create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex11/tests/public/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex08/dswd_blog/models/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex08/dswd_blog/models/blog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex08/migrations/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex08/migrations/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex08/migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex08/migrations/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex08/migrations/versions/38fc4a21393b_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex08/scripts/commit_blog_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex08/scripts/commit_blog_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex09/dswd_blog/models/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex09/dswd_blog/models/blog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex09/migrations/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex09/migrations/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex09/migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex09/migrations/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex09/migrations/versions/38fc4a21393b_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex09/migrations/versions/b6ef98820480_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex09/scripts/create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex09/scripts/create_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex10/.flaskenv" beforeDir="false" afterPath="$PROJECT_DIR$/ex10/.flaskenv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex10/dswd_blog/models/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex10/dswd_blog/models/blog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex10/migrations/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex10/migrations/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex10/migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex10/migrations/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex10/migrations/versions/38fc4a21393b_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex10/migrations/versions/b6ef98820480_.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +67,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex10/dswd_blog/auth/views.py">
+        <entry file="file://$PROJECT_DIR$/ex11/scripts/create.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="e#0#79#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -79,21 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ex03/dswd_blog/wsgi.py" />
-        <option value="$PROJECT_DIR$/ex03/.flaskenv" />
-        <option value="$PROJECT_DIR$/ex04/dswd_blog/config.py" />
-        <option value="$PROJECT_DIR$/ex04/dswd_blog/app.py" />
-        <option value="$PROJECT_DIR$/ex04/requirements.txt" />
-        <option value="$PROJECT_DIR$/ex04/tests/public/views.py" />
-        <option value="$PROJECT_DIR$/ex04/tests/public/test_views.py" />
-        <option value="$PROJECT_DIR$/ex04/tests/conftest.py" />
-        <option value="$PROJECT_DIR$/ex05/tests/public/test_views.py" />
-        <option value="$PROJECT_DIR$/ex05/dswd_blog/static/main.css" />
-        <option value="$PROJECT_DIR$/ex05/dswd_blog/templates/home.html" />
-        <option value="$PROJECT_DIR$/ex06/dswd_blog/templates/nav.html" />
-        <option value="$PROJECT_DIR$/ex06/dswd_blog/templates/layout.html" />
-        <option value="$PROJECT_DIR$/ex06/dswd_blog/templates/public/blog/index.html" />
-        <option value="$PROJECT_DIR$/ex06/dswd_blog/templates/public/home/index.html" />
         <option value="$PROJECT_DIR$/ex07/dswd_blog/static/main.css" />
         <option value="$PROJECT_DIR$/ex07/.flaskenv" />
         <option value="$PROJECT_DIR$/ex07/dswd_blog/config.py" />
@@ -106,9 +108,7 @@
         <option value="$PROJECT_DIR$/ex08/dswd_blog/extensions.py" />
         <option value="$PROJECT_DIR$/ex08/dswd_blog/config.py" />
         <option value="$PROJECT_DIR$/ex08/dswd_blog/models/__init__.py" />
-        <option value="$PROJECT_DIR$/ex08/dswd_blog/models/blog.py" />
         <option value="$PROJECT_DIR$/ex08/dswd_blog/app.py" />
-        <option value="$PROJECT_DIR$/ex08/scripts/commit_blog_data.py" />
         <option value="$PROJECT_DIR$/ex08/readme.md" />
         <option value="$PROJECT_DIR$/ex08/dswd_blog/public/views.py" />
         <option value="$PROJECT_DIR$/ex08/.flaskenv" />
@@ -124,12 +124,29 @@
         <option value="$PROJECT_DIR$/ex09/dswd_blog/extensions.py" />
         <option value="$PROJECT_DIR$/ex09/dswd_blog/config.py" />
         <option value="$PROJECT_DIR$/ex09/.flaskenv" />
-        <option value="$PROJECT_DIR$/ex09/scripts/create_user.py" />
         <option value="$PROJECT_DIR$/ex09/dswd_blog/templates/layout.html" />
         <option value="$PROJECT_DIR$/ex09/dswd_blog/models/user.py" />
         <option value="$PROJECT_DIR$/ex09/dswd_blog/auth/views.py" />
         <option value="$PROJECT_DIR$/ex09/dswd_blog/templates/nav.html" />
         <option value="$PROJECT_DIR$/ex10/dswd_blog/auth/views.py" />
+        <option value="$PROJECT_DIR$/ex10/dswd_blog/templates/auth/sign_in/form.html" />
+        <option value="$PROJECT_DIR$/ex10/dswd_blog/templates/auth/sign_up/index.html" />
+        <option value="$PROJECT_DIR$/ex10/dswd_blog/templates/auth/sign_up/form.html" />
+        <option value="$PROJECT_DIR$/ex11/dswd_blog/models/user.py" />
+        <option value="$PROJECT_DIR$/ex11/.flaskenv" />
+        <option value="$PROJECT_DIR$/ex11/scripts/create_user.py" />
+        <option value="$PROJECT_DIR$/ex11/dswd_blog/templates/public/blog/blog_card.html" />
+        <option value="$PROJECT_DIR$/ex08/dswd_blog/models/blog.py" />
+        <option value="$PROJECT_DIR$/ex08/scripts/commit_blog_data.py" />
+        <option value="$PROJECT_DIR$/ex10/dswd_blog/models/blog.py" />
+        <option value="$PROJECT_DIR$/ex09/scripts/commit_blog_data.py" />
+        <option value="$PROJECT_DIR$/ex09/scripts/create_user.py" />
+        <option value="$PROJECT_DIR$/ex09/dswd_blog/models/blog.py" />
+        <option value="$PROJECT_DIR$/ex10/.flaskenv" />
+        <option value="$PROJECT_DIR$/ex11/dswd_blog/models/blog.py" />
+        <option value="$PROJECT_DIR$/ex10/scripts/commit_blog_data.py" />
+        <option value="$PROJECT_DIR$/ex10/scripts/create_user.py" />
+        <option value="$PROJECT_DIR$/ex11/scripts/create.py" />
       </list>
     </option>
   </component>
@@ -150,24 +167,6 @@
               <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
-              <item name="ex10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
-              <item name="ex10" type="462c0819:PsiDirectoryNode" />
-              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
-              <item name="ex10" type="462c0819:PsiDirectoryNode" />
-              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -178,11 +177,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex10/scripts" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ex10/scripts" />
+      <recent name="$PROJECT_DIR$/ex09/scripts" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ex03/dswd_blog" />
       <recent name="$PROJECT_DIR$/ex02" />
@@ -220,7 +221,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1374" height="771" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -234,7 +234,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.32970452" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20062208" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1881804" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -263,136 +263,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex05/dswd_blog/static/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex06/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex04/tests/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex06/dswd_blog/templates/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex06/dswd_blog/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex06/dswd_blog/templates/public/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex07/dswd_blog/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex07/dswd_blog/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex06/.flaskenv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex07/dswd_blog/public/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex06/dswd_blog/templates/public/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex06/dswd_blog/public/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex06/dswd_blog/public/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex07/dswd_blog/static/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex07/.flaskenv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex07/dswd_blog/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex08/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex07/dswd_blog/templates/public/blog/blog_card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex07/dswd_blog/templates/public/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex08/dswd_blog/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex08/migrations/alembic.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex08/dswd_blog/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -406,16 +276,6 @@
           <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex08/dswd_blog/models/blog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -445,20 +305,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex08/readme.md" />
-    <entry file="file://$PROJECT_DIR$/ex08/.flaskenv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex08/scripts/imports">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex08/dswd_blog/public/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -473,20 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex08/scripts/commit_blog_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex08/dswd_blog/templates/public/blog/blog_card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -566,13 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex09/scripts/create_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex09/dswd_blog/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -621,6 +446,211 @@
           <folding>
             <element signature="e#0#79#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex10/dswd_blog/templates/auth/sign_in/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex10/dswd_blog/templates/auth/sign_in/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex10/dswd_blog/templates/auth/sign_up/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex10/dswd_blog/templates/auth/sign_up/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/migrations/versions/ccedfe064088_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/migrations/versions/b6ef98820480_.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/dswd-py-web/lib/python3.7/site-packages/sqlalchemy/engine/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="580" selection-start-line="580" selection-end-line="580" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/migrations/versions/402ef95fc891_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/public/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/templates/public/blog/blog_card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex08/dswd_blog/templates/public/blog/blog_card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex08/.flaskenv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex08/dswd_blog/models/blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex08/scripts/commit_blog_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex08/scripts/imports">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" lean-forward="true" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex09/scripts/create_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#156#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex09/scripts/commit_blog_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#3592#3627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex09/dswd_blog/models/blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex10/.flaskenv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex10/dswd_blog/models/blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex10/scripts/commit_blog_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex10/scripts/create_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/.flaskenv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/scripts/create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
