@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7a58a7-2280-4f39-ac20-e25a10d51f95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ex11/dswd_blog/models/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex11/dswd_blog/models/blog.py" afterDir="false" />
-    </list>
+    <list default="true" id="0f7a58a7-2280-4f39-ac20-e25a10d51f95" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,41 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex11/scripts/create.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/user.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="849">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/blog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,19 +105,6 @@
               <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
               <item name="ex11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
-              <item name="ex11" type="462c0819:PsiDirectoryNode" />
-              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
-              <item name="ex11" type="462c0819:PsiDirectoryNode" />
-              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -615,10 +566,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex11/scripts/create.py">
+    <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/blog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -632,13 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/blog.py">
+    <entry file="file://$PROJECT_DIR$/ex11/scripts/create.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
         </state>
       </provider>
     </entry>
