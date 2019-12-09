@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f7a58a7-2280-4f39-ac20-e25a10d51f95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex09/scripts/commit_blog_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex10/scripts/commit_blog_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/.flaskenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/auth/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/auth/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/extensions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/models/blog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/public/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/public/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/static/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/static/pic.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/auth/sign_in/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/auth/sign_in/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/auth/sign_up/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/auth/sign_up/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/public/blog/blog_card.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/public/blog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/templates/public/home/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/dswd_blog/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/scripts/create.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex11/tests/public/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex08/dswd_blog/models/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex08/dswd_blog/models/blog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex08/migrations/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex08/migrations/alembic.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex08/migrations/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex08/migrations/script.py.mako" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex08/migrations/versions/38fc4a21393b_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex08/scripts/commit_blog_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex08/scripts/commit_blog_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex09/dswd_blog/models/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex09/dswd_blog/models/blog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex09/migrations/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex09/migrations/alembic.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex09/migrations/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex09/migrations/script.py.mako" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex09/migrations/versions/38fc4a21393b_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex09/migrations/versions/b6ef98820480_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex09/scripts/create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex09/scripts/create_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex10/.flaskenv" beforeDir="false" afterPath="$PROJECT_DIR$/ex10/.flaskenv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex10/dswd_blog/models/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex10/dswd_blog/models/blog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex10/migrations/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex10/migrations/alembic.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex10/migrations/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex10/migrations/script.py.mako" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex10/migrations/versions/38fc4a21393b_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex10/migrations/versions/b6ef98820480_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex11/dswd_blog/models/blog.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex11/dswd_blog/models/blog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +12,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex11/scripts/create.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="216">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="849">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/blog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,10 +113,10 @@
         <option value="$PROJECT_DIR$/ex09/scripts/create_user.py" />
         <option value="$PROJECT_DIR$/ex09/dswd_blog/models/blog.py" />
         <option value="$PROJECT_DIR$/ex10/.flaskenv" />
-        <option value="$PROJECT_DIR$/ex11/dswd_blog/models/blog.py" />
         <option value="$PROJECT_DIR$/ex10/scripts/commit_blog_data.py" />
         <option value="$PROJECT_DIR$/ex10/scripts/create_user.py" />
         <option value="$PROJECT_DIR$/ex11/scripts/create.py" />
+        <option value="$PROJECT_DIR$/ex11/dswd_blog/models/blog.py" />
       </list>
     </option>
   </component>
@@ -166,6 +136,24 @@
             <path>
               <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
+              <item name="ex11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
+              <item name="ex11" type="462c0819:PsiDirectoryNode" />
+              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
+              <item name="ex11" type="462c0819:PsiDirectoryNode" />
+              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +222,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.32970452" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1881804" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31570762" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -487,16 +475,6 @@
         <state relative-caret-position="-204" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex11/migrations/versions/b6ef98820480_.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -616,16 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/blog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex10/scripts/commit_blog_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -649,8 +617,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ex11/scripts/create.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="216">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex11/dswd_blog/models/blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

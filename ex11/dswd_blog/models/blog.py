@@ -10,3 +10,6 @@ class Blog(db.Model):
     title = db.Column(db.String(128), nullable=False)
     content = db.Column(db.Text, nullable=False)
     created_at = db.Column(db.DateTime, nullable=False, default=dt.datetime.utcnow)
+
+    def __repr__(self):
+        return f"<Blog '{self.title}'>"
