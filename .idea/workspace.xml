@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f7a58a7-2280-4f39-ac20-e25a10d51f95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex14/.flaskenv" beforeDir="false" afterPath="$PROJECT_DIR$/ex14/.flaskenv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex14/dswd_blog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex14/dswd_blog/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex14/dswd_blog/templates/blog/home/blog_card.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex14/dswd_blog/templates/blog/home/blog_card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex14/dswd_blog/templates/blog/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex14/dswd_blog/templates/blog/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex14/dswd_blog/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex14/dswd_blog/templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex14/scripts/create.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex14/scripts/create.py" afterDir="false" />
-    </list>
+    <list default="true" id="0f7a58a7-2280-4f39-ac20-e25a10d51f95" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex14/dswd_blog/templates/blog/home/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="351">
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -138,53 +130,6 @@
               <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
               <item name="ex14" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
-              <item name="ex14" type="462c0819:PsiDirectoryNode" />
-              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
-              <item name="ex14" type="462c0819:PsiDirectoryNode" />
-              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
-              <item name="ex14" type="462c0819:PsiDirectoryNode" />
-              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
-              <item name="ex14" type="462c0819:PsiDirectoryNode" />
-              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
-              <item name="ex14" type="462c0819:PsiDirectoryNode" />
-              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dswd-py-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dswd-py-web" type="462c0819:PsiDirectoryNode" />
-              <item name="ex14" type="462c0819:PsiDirectoryNode" />
-              <item name="dswd_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -240,7 +185,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1374" height="771" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -254,7 +198,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.32970452" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.281493" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30015552" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32970452" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -647,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex14/.flaskenv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex14/scripts/create.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -692,10 +629,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ex14/.flaskenv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ex14/dswd_blog/templates/blog/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="351">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>

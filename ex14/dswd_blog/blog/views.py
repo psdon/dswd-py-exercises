@@ -31,7 +31,7 @@ def create_blog():
         db.session.add(blog_obj)
         try:
             db.session.commit()
-            return redirect(url_for('blog.home'))
+            return redirect(url_for('blog.home', page=1))
         except Exception as error:
             db.session.rollback()
             print(error)
@@ -54,7 +54,7 @@ def edit_blog(blog_id):
 
         try:
             db.session.commit()
-            return redirect(url_for('blog.home'))
+            return redirect(url_for('blog.home', page=1))
         except Exception as error:
             db.session.rollback()
             print(error)
@@ -79,4 +79,4 @@ def delete_blog(blog_id):
         print(error)
         flash("Server error occured", "warning")
 
-    return redirect(url_for('blog.home'))
+    return redirect(url_for('blog.home', page=1))
