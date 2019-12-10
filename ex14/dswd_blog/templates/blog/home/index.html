@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Welcome to our Blog</h2>
+
+<a href="{{ url_for('blog.create_blog') }}">Create Post</a>
+
+{% include "blog/home/blog_card.html" %}
+{% endblock %}
+
+
+{% block title %}
+Blog | DSWD
+{% endblock %}

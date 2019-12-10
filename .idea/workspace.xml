@@ -30,18 +30,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex13/dswd_blog/auth/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="107" />
+            <state relative-caret-position="177">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <element signature="e#0#79#0" expanded="true" />
-                <element signature="e#372#1285#0" />
-                <element signature="e#520#1220#0" />
                 <element signature="e#828#951#0" />
                 <element signature="e#1332#1473#0" />
                 <element signature="e#1543#2260#0" />
                 <element signature="e#1693#2194#0" />
                 <element signature="e#1896#2053#0" />
                 <element signature="e#2092#2194#0" />
+                <element signature="e#2932#4047#0" />
                 <element signature="e#3114#3241#0" />
                 <element signature="e#3527#3762#0" />
                 <element signature="e#3549#3988#0" />
@@ -164,8 +163,8 @@
         <option value="$PROJECT_DIR$/ex13/dswd_blog/templates/auth/recover/email_template.html" />
         <option value="$PROJECT_DIR$/ex13/dswd_blog/auth/utils.py" />
         <option value="$PROJECT_DIR$/ex13/dswd_blog/auth/forms.py" />
-        <option value="$PROJECT_DIR$/ex13/dswd_blog/auth/views.py" />
         <option value="$PROJECT_DIR$/ex13/dswd_blog/templates/auth/recover/reset_password.html" />
+        <option value="$PROJECT_DIR$/ex13/dswd_blog/auth/views.py" />
       </list>
     </option>
   </component>
@@ -221,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stealthx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -267,7 +266,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1374" height="771" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -281,7 +279,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.32970452" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27682737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5676516" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32970452" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -717,18 +715,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ex13/dswd_blog/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="107" />
+        <state relative-caret-position="177">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
           <folding>
             <element signature="e#0#79#0" expanded="true" />
-            <element signature="e#372#1285#0" />
-            <element signature="e#520#1220#0" />
             <element signature="e#828#951#0" />
             <element signature="e#1332#1473#0" />
             <element signature="e#1543#2260#0" />
             <element signature="e#1693#2194#0" />
             <element signature="e#1896#2053#0" />
             <element signature="e#2092#2194#0" />
+            <element signature="e#2932#4047#0" />
             <element signature="e#3114#3241#0" />
             <element signature="e#3527#3762#0" />
             <element signature="e#3549#3988#0" />
