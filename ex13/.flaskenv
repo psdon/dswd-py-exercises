@@ -3,3 +3,4 @@ FLASK_DEBUG=1
 FLASK_ENV=development
 DATABASE_URL=sqlite:////home/me/PycharmProjects/dswd-py-web/ex13/dev.db
 SECRET_KEY=some-things-secret
+PASSWORD_SALT_KEY=somethinggggg

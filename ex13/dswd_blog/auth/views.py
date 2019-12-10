@@ -1,8 +1,10 @@
 from flask import Blueprint, render_template, redirect, url_for, flash, request
 from flask_login import current_user, login_user, logout_user
-from .forms import SignInForm, SignUpForm
+from .forms import SignInForm, SignUpForm, RecoverForm, ResetPasswordForm
 from ..models import User
 from ..extensions import db
+from .utils import send_recover_account_email
+from .tokens import verify_email_token
 
 # Try :: url_prefix="/account"
 bp = Blueprint("auth", __name__)
@@ -34,7 +36,7 @@ def sign_in():
         if request.args.get("next"):
             safe_redirect = f"{request.host_url}{request.args.get('next').strip('/')}"
 
-        return redirect(safe_redirect or url_for("public.blog"))
+        return redirect(safe_redirect or url_for("blog.home"))
     return render_template("auth/sign_in/index.html", form=form)
 
 
@@ -70,3 +72,50 @@ def sign_up():
             flash("Oops, an error occurred. Please try again later.", "warning")
 
     return render_template("auth/sign_up/index.html", form=form)
+
+
+@bp.route("/reset-password/<token>", methods=["GET", "POST"])
+def reset_password(token):
+
+    email = verify_email_token(token)
+    if email is None:
+        flash("The reset password link is invalid or has expired.", "warning")
+        return redirect(url_for("auth.account_recover"))
+
+    if current_user.is_authenticated:
+        logout_user()
+
+    form = ResetPasswordForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(email=email).first()
+
+        if user:
+            user.set_password(form.password.data)
+            try:
+                db.session.commit()
+                flash(
+                    "You have successfully reset your password. You can now sign in.",
+                    "success",
+                )
+                return redirect(url_for("auth.sign_in"))
+            except Exception:
+                flash("Oops, an error occurred. Please try again later.", "warning")
+        else:
+            flash("Oops, an error occurred. Please try again later.", "warning")
+
+    return render_template("auth/recover/reset_password.html", form=form)
+
+
+@bp.route("/recover/", methods=["GET", "POST"])
+def account_recover():
+    if current_user.is_authenticated:
+        return redirect(url_for("blog.home"))
+
+    form = RecoverForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(email=form.email.data).first()
+        if user:
+            send_recover_account_email(email=user.email)
+        flash("We have sent you an email. Please check your email inbox.", "success")
+
+    return render_template("auth/recover/find_account.html", form=form)

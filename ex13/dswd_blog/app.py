@@ -1,6 +1,6 @@
 from flask import Flask
 from . import auth, public, config, blog
-from .extensions import db, migrate, login_manager, csrf_protect
+from .extensions import db, migrate, login_manager, csrf_protect, mail
 from . import models
 
 
@@ -29,3 +29,4 @@ def register_extensions(app):
     migrate.init_app(app, db)
     csrf_protect.init_app(app)
     login_manager.init_app(app)
+    mail.init_app(app)
