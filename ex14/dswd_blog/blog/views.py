@@ -8,10 +8,10 @@ from ..extensions import db
 bp = Blueprint("blog", __name__, url_prefix="/blog")
 
 
-@bp.route("/")
+@bp.route("/<int:page>")
 @login_required
-def home():
-    blogs = Blog.query.order_by(Blog.id.desc()).all()
+def home(page):
+    blogs = Blog.query.order_by(Blog.id.desc()).paginate(per_page=5, page=page, error_out=True)
     # blogs = Blog.query.all()
 
     return render_template("blog/home/index.html", blogs=blogs)

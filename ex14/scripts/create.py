@@ -33,8 +33,33 @@ def init_db(db, User, Blog):
             print("Failure occured")
             print(err)
 
+def create_many(db, User, Blog):
+    user = User.query.first()
+
+    data = []
+    for i in range(100):
+        entry = {
+            "title": i,
+            "content": i,
+        }
+        data.append(entry)
+
+    for entry in data:
+        # author = user :: Via backref
+        # author_id=1 is also good
+        blog = Blog(author=user, title=entry['title'], content=entry['content'])
+
+        db.session.add(blog)
+        try:
+            db.session.commit()
+        except Exception as err:
+            db.session.rollback()
+            print("Failure occured")
+            print(err)
+
 
 # from dswd_blog.extensions import db
 # from dswd_blog.models import User, Blog
-# from scripts.create import init_db
+# from scripts.create import init_db, create_many
 # init_db(db, User, Blog)
+# create_many(db, User, Blog)
