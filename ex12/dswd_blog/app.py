@@ -1,5 +1,5 @@
 from flask import Flask
-from . import auth, public, config
+from . import auth, public, config, blog
 from .extensions import db, migrate, login_manager, csrf_protect
 from . import models
 
@@ -21,6 +21,7 @@ def create_app(testing=False):
 def register_blueprints(app):
     app.register_blueprint(auth.views.bp)
     app.register_blueprint(public.views.bp)
+    app.register_blueprint(blog.views.bp)
 
 
 def register_extensions(app):

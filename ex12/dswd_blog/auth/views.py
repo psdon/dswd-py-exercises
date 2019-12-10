@@ -11,7 +11,7 @@ bp = Blueprint("auth", __name__)
 @bp.route("/sign-in/", methods=["GET", "POST"])
 def sign_in():
     if current_user.is_authenticated:
-        return redirect(url_for("public.blog"))
+        return redirect(url_for("blog.home"))
 
     form = SignInForm()
 
